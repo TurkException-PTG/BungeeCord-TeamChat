@@ -7,7 +7,7 @@ import net.md_5.bungee.api.plugin.Command;
 /*
 
 Halil H.
-Created on 03.12.2020 inside the package - de.ptg.bungee.teamchat.commands
+Created on 19.12.2020 inside the package - de.ptg.bungee.teamchat.commands
 
 */
 public class TC_Command extends Command {
