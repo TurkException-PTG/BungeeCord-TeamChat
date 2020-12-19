@@ -8,7 +8,7 @@ import net.md_5.bungee.api.plugin.Listener;
 /*
 
 Halil H.
-Created on 03.12.2020 inside the package - de.ptg.bungee.teamchat
+Created on 03.12.2020 inside the package - de.ptg.bungee.teamchat.event
 
 */
 import net.md_5.bungee.event.EventHandler;
@@ -22,7 +22,7 @@ public class PlayerChat_Event implements Listener {
 				e.setCancelled(true);
 				for (ProxiedPlayer all : BungeeCord.getInstance().getPlayers()) {
 					if (TeamChat.getInstance().getArraylist().contains(all)) {
-						all.sendMessage(TeamChat.getInstance().getPrefix() + "ง4" + player.getName() + "ง7: " + e.getMessage().replace("@tc", ""));
+						all.sendMessage(TeamChat.getInstance().getPrefix() + "ยง4" + player.getName() + "ยง7: " + e.getMessage().replace("@tc", ""));
 					}
 				}
 			}
