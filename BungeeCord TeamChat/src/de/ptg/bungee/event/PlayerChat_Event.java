@@ -8,7 +8,7 @@ import net.md_5.bungee.api.plugin.Listener;
 /*
 
 Halil H.
-Created on 03.12.2020 inside the package - de.ptg.bungee.teamchat.event
+Created on 19.12.2020 inside the package - de.ptg.bungee.teamchat.event
 
 */
 import net.md_5.bungee.event.EventHandler;
