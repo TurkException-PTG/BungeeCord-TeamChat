@@ -1,0 +1,6 @@
+name: TeamChat
+author: ptg
+version: 1.0
+main: de.ptg.bungee.teamchat.TeamChat
+commands: 
+  tc:
