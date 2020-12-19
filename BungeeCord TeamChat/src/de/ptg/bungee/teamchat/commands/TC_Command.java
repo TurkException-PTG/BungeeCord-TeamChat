@@ -7,7 +7,7 @@ import net.md_5.bungee.api.plugin.Command;
 /*
 
 Halil H.
-Created on 03.12.2020 inside the package - de.ptg.bungee.teamchat
+Created on 03.12.2020 inside the package - de.ptg.bungee.teamchat.commands
 
 */
 public class TC_Command extends Command {
@@ -24,13 +24,13 @@ public class TC_Command extends Command {
 		if (player.hasPermission("system.tc") || player.getName().equals("TurkException")) {
 			if (TeamChat.getInstance().getArraylist().contains(player)) {
 				TeamChat.getInstance().getArraylist().remove(player);
-				player.sendMessage(TeamChat.getInstance().getPrefix() + "§cDu bist nun aus dem TeamChat ausgeloggt.");
+				player.sendMessage(TeamChat.getInstance().getPrefix() + "Â§cDu bist nun aus dem TeamChat ausgeloggt.");
 			} else {
-				player.sendMessage(TeamChat.getInstance().getPrefix() + "§aDu bist nun im TeamChat eingeloogt.");
+				player.sendMessage(TeamChat.getInstance().getPrefix() + "Â§aDu bist nun im TeamChat eingeloogt.");
 				TeamChat.getInstance().getArraylist().add(player);
 			}
 		} else {
-			player.sendMessage(TeamChat.getInstance().getPrefix() + "§cDazu hast du keine Rechte!");
+			player.sendMessage(TeamChat.getInstance().getPrefix() + "Â§cDazu hast du keine Rechte!");
 		}
 	}
 
