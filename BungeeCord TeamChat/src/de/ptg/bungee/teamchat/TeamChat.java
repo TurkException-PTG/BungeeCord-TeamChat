@@ -11,11 +11,11 @@ import net.md_5.bungee.api.plugin.Plugin;
 /*
 
 Halil H.
-Created on 03.12.2020 inside the package - de.ptg.bungee.teamchat
+Created on 19.12.2020 inside the package - de.ptg.bungee.teamchat
 
 */
 public class TeamChat extends Plugin{
-	private final String Prefix = "ง7[ง4TCง7] ";
+	private final String Prefix = "ยง7[ยง4TCยง7] ";
 	private static TeamChat instance;
 	private final ArrayList<ProxiedPlayer> teamchat = new ArrayList<>();
 	
